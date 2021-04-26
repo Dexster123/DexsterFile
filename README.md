@@ -17,7 +17,7 @@ echo
 read -p "Pilih Perinta Anda : " pil
 if [[ $pil == 1 ]]; then
 read -p "Masukan Nomor Target : " nomor
-link="https://id.jagreward.com/member/verify-mobile/$>
+link="https://id.jagreward.com/member/verify-mobile/$nomor"
 curl -s $link
 else
 echo 'Termiakasih Telah Menggunakan Tools Ini'
